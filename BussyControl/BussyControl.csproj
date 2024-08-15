@@ -15,7 +15,7 @@
 	  <Copyright>Daniel Schimmelpfennig</Copyright>
 	  <RepositoryUrl>https://github.com/Ruffythemonkey/BussyControl</RepositoryUrl>
 	  <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
-	  <Version>1.1.0</Version>
+	  <Version>1.2.0</Version>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebugType>embedded</DebugType>
@@ -40,7 +40,7 @@
   </ItemGroup>
 
   <ItemGroup>
-      <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.4.240802001" />
+      <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.5.240627000" />
       <!--<PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.22621.756" />-->
   </ItemGroup>
 
