@@ -1,3 +1,4 @@
+using System.Diagnostics;
 using System.IO;
 using System.Reflection;
 using Microsoft.UI.Xaml;
@@ -14,6 +15,7 @@ public sealed partial class Bussy : UserControl
     {
         this.InitializeComponent();
         LoadEmbeddedImage();
+        this.Visibility = Visibility.Collapsed;
     }
 
     private void LoadEmbeddedImage()
