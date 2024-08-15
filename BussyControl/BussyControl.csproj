@@ -9,10 +9,11 @@
 	  <UseRidGraph>true</UseRidGraph>
 	  <DisableEmbeddedXbf>false</DisableEmbeddedXbf>
 	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-	  <Title>RuffysBussyControlWinui3</Title>
+	  <Title>BussyControl.Winui3</Title>
 	  <Authors>Daniel Schimmelpfennig</Authors>
 	  <PackageProjectUrl>https://github.com/Ruffythemonkey/BussyControl</PackageProjectUrl>
-	  <Copyright>MIT</Copyright>
+	  <Copyright>Daniel Schimmelpfennig</Copyright>
+	  <RepositoryUrl>https://github.com/Ruffythemonkey/BussyControl</RepositoryUrl>
   </PropertyGroup>
   <ItemGroup>
     <Content Remove="Assets\yuzu.png" />
@@ -22,6 +23,9 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Assets\yuzu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="https:\raw.githubusercontent.com\Ruffythemonkey\BussyControl\master\LICENSE.txt" />
   </ItemGroup>
 
   <ItemGroup>
