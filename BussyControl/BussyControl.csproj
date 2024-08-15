@@ -12,6 +12,7 @@
 	  <Title>RuffysBussyControlWinui3</Title>
 	  <Authors>Daniel Schimmelpfennig</Authors>
 	  <PackageProjectUrl>https://github.com/Ruffythemonkey/BussyControl</PackageProjectUrl>
+	  <Copyright>MIT</Copyright>
   </PropertyGroup>
   <ItemGroup>
     <Content Remove="Assets\yuzu.png" />
