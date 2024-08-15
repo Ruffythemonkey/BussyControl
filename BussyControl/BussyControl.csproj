@@ -14,6 +14,7 @@
 	  <PackageProjectUrl>https://github.com/Ruffythemonkey/BussyControl</PackageProjectUrl>
 	  <Copyright>Daniel Schimmelpfennig</Copyright>
 	  <RepositoryUrl>https://github.com/Ruffythemonkey/BussyControl</RepositoryUrl>
+	  <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
   </PropertyGroup>
   <ItemGroup>
     <Content Remove="Assets\yuzu.png" />
@@ -25,7 +26,10 @@
     <EmbeddedResource Include="Assets\yuzu.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="https:\raw.githubusercontent.com\Ruffythemonkey\BussyControl\master\LICENSE.txt" />
+    <None Include="..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
   <ItemGroup>
